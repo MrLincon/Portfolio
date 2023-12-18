@@ -17,7 +17,6 @@ body {
 }
 
 .header {
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -26,11 +25,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
 }
 
 .navbar a {
-  position: relative;
   font-size: 18px;
   color: white;
   font-weight: 500;
@@ -40,7 +37,6 @@ body {
 
 .navbar a::before {
   content: "";
-  position: absolute;
   bottom: 0;
   left: 0;
   width: 0;
@@ -56,8 +52,7 @@ body {
 }
 
 .container {
-  background-color: #a03737;
-  margin-top: 93px;
+  background-color: #323232;
   height: 360px;
   width: 100%;
   display: flex;
@@ -67,7 +62,7 @@ body {
 .intro {
   width: 65%;
   padding: 24px 100px;
-  background-color: #61a037;
+  background-color: #323232;
   margin: auto;
 }
 
@@ -109,7 +104,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #3741a0;
+  background-color: #323232;
 }
 
 .image {
